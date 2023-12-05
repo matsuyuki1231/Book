@@ -1,0 +1,15 @@
+---
+name: Book
+version: 1.0.0
+main: matsuyuki\book\BookPlugin
+description: 本のデータを保存します
+api: 5.0.0
+src-namespace-prefix: matsuyuki\book
+permissions:
+  Book.Everyone:
+    description: 全員
+    default: true
+  Book.Admin:
+    description: OP
+    default: op
+...
